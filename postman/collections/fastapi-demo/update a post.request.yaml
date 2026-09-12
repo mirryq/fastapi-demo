@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{URL}}posts/3"
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "title": "lol again",
+        "content": "haha x2"
+    }
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+order: 4070837786485540

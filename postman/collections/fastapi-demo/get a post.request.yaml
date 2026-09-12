@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{URL}}posts/2"
+method: GET
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+order: 3129473127499065

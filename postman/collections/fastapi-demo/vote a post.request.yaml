@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{URL}}vote"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "post_id": 15,
+        "dir": 1
+    }
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+order: 4502230152146842

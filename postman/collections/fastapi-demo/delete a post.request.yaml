@@ -1,0 +1,9 @@
+$kind: http-request
+description: ""
+url: "{{URL}}posts/7"
+method: DELETE
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+order: 3320516264963703

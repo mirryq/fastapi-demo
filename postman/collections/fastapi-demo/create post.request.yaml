@@ -1,0 +1,22 @@
+$kind: http-request
+description: ""
+url: "{{URL}}posts"
+method: POST
+headers:
+  - key: Authorization
+    value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxOCwiZXhwIjoxNzg5MDU2NTEwfQ.uaTmcRlulz4J4eZP04bB0rCOxkXS5EDC7iHGZ8p6sMo
+    disabled: true
+    description: ""
+body:
+  type: json
+  content: |-
+    {
+        "title": "i hate code that are out of date",
+        "content": ""
+    }
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+    redirect_uri: ""
+order: 1570537959878099

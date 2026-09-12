@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{URL}}users/posts"
+method: GET
+auth:
+  type: oauth2
+  credentials:
+    addTokenTo: header
+order: 4500962060049720
